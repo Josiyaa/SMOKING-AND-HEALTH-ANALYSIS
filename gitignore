@@ -1,0 +1,27 @@
+# Power BI temporary and backup files
+*.tmp
+*.bak
+*.pbit
+
+# Office temporary files
+~$*
+*.lock
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Sensitive or local-only data (review before committing)
+.env
+*.credentials
+private_data/
+confidential_data/
+
+# Python cache (if helper scripts are added later)
+__pycache__/
+*.py[cod]
